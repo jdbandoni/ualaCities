@@ -11,7 +11,6 @@
 		3C0D10172C5413F40054FDC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0D10162C5413F40054FDC6 /* ContentView.swift */; };
 		3C0D10192C5413F50054FDC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C0D10182C5413F50054FDC6 /* Assets.xcassets */; };
 		3C0D101C2C5413F50054FDC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C0D101B2C5413F50054FDC6 /* Preview Assets.xcassets */; };
-		3C0D10262C5413F50054FDC6 /* UalaCitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0D10252C5413F50054FDC6 /* UalaCitiesTests.swift */; };
 		3C0D10302C5413F50054FDC6 /* UalaCitiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0D102F2C5413F50054FDC6 /* UalaCitiesUITests.swift */; };
 		3C0D10322C5413F50054FDC6 /* UalaCitiesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0D10312C5413F50054FDC6 /* UalaCitiesUITestsLaunchTests.swift */; };
 		3C0D10402C5414BE0054FDC6 /* CityCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0D103F2C5414BE0054FDC6 /* CityCellView.swift */; };
@@ -24,6 +23,9 @@
 		3C0D10542C542AE50054FDC6 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0D10532C542AE50054FDC6 /* HomeModel.swift */; };
 		3C0D10582C5432290054FDC6 /* DeviceRotationViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0D10572C5432290054FDC6 /* DeviceRotationViewModifier.swift */; };
 		3C0D105A2C5432370054FDC6 /* View+onRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0D10592C5432370054FDC6 /* View+onRotate.swift */; };
+		3C0D105E2C599E6E0054FDC6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0D105D2C599E6E0054FDC6 /* MapView.swift */; };
+		3CF0A1D02C5AA4D100E32D4A /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF0A1CF2C5AA4D100E32D4A /* MapViewModel.swift */; };
+		3CF0A1D32C5AC8D000E32D4A /* MapViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF0A1D22C5AC8D000E32D4A /* MapViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +52,6 @@
 		3C0D10182C5413F50054FDC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C0D101B2C5413F50054FDC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3C0D10212C5413F50054FDC6 /* UalaCitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UalaCitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C0D10252C5413F50054FDC6 /* UalaCitiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UalaCitiesTests.swift; sourceTree = "<group>"; };
 		3C0D102B2C5413F50054FDC6 /* UalaCitiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UalaCitiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C0D102F2C5413F50054FDC6 /* UalaCitiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UalaCitiesUITests.swift; sourceTree = "<group>"; };
 		3C0D10312C5413F50054FDC6 /* UalaCitiesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UalaCitiesUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -64,6 +65,9 @@
 		3C0D10532C542AE50054FDC6 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 		3C0D10572C5432290054FDC6 /* DeviceRotationViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceRotationViewModifier.swift; sourceTree = "<group>"; };
 		3C0D10592C5432370054FDC6 /* View+onRotate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+onRotate.swift"; sourceTree = "<group>"; };
+		3C0D105D2C599E6E0054FDC6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		3CF0A1CF2C5AA4D100E32D4A /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		3CF0A1D22C5AC8D000E32D4A /* MapViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,9 +140,9 @@
 		3C0D10242C5413F50054FDC6 /* UalaCitiesTests */ = {
 			isa = PBXGroup;
 			children = (
+				3CF0A1D12C5AC8BB00E32D4A /* Home */,
 				3C0D104E2C54255C0054FDC6 /* Stub */,
 				3C0D104B2C5423EA0054FDC6 /* City */,
-				3C0D10252C5413F50054FDC6 /* UalaCitiesTests.swift */,
 			);
 			path = UalaCitiesTests;
 			sourceTree = "<group>";
@@ -168,6 +172,8 @@
 				3C0D10472C5422520054FDC6 /* HomeView.swift */,
 				3C0D10492C54227D0054FDC6 /* HomeViewModel.swift */,
 				3C0D10532C542AE50054FDC6 /* HomeModel.swift */,
+				3C0D105D2C599E6E0054FDC6 /* MapView.swift */,
+				3CF0A1CF2C5AA4D100E32D4A /* MapViewModel.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -203,6 +209,14 @@
 				3C0D10592C5432370054FDC6 /* View+onRotate.swift */,
 			);
 			path = DeviceRotation;
+			sourceTree = "<group>";
+		};
+		3CF0A1D12C5AC8BB00E32D4A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3CF0A1D22C5AC8D000E32D4A /* MapViewModelTests.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,6 +352,7 @@
 				3C0D10422C5414FE0054FDC6 /* CityModel.swift in Sources */,
 				3C0D10172C5413F40054FDC6 /* ContentView.swift in Sources */,
 				3C0D104A2C54227D0054FDC6 /* HomeViewModel.swift in Sources */,
+				3C0D105E2C599E6E0054FDC6 /* MapView.swift in Sources */,
 				3C0D10152C5413F40054FDC6 /* UalaCitiesApp.swift in Sources */,
 				3C0D10582C5432290054FDC6 /* DeviceRotationViewModifier.swift in Sources */,
 				3C0D10542C542AE50054FDC6 /* HomeModel.swift in Sources */,
@@ -345,6 +360,7 @@
 				3C0D10402C5414BE0054FDC6 /* CityCellView.swift in Sources */,
 				3C0D105A2C5432370054FDC6 /* View+onRotate.swift in Sources */,
 				3C0D10442C541ADF0054FDC6 /* CityCellViewModel.swift in Sources */,
+				3CF0A1D02C5AA4D100E32D4A /* MapViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,9 +368,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C0D10262C5413F50054FDC6 /* UalaCitiesTests.swift in Sources */,
 				3C0D10502C54257B0054FDC6 /* CityModel+Stub.swift in Sources */,
 				3C0D104D2C5424140054FDC6 /* CityViewModelTests.swift in Sources */,
+				3CF0A1D32C5AC8D000E32D4A /* MapViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +529,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -542,6 +559,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -564,7 +582,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZSU9399SWX;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = JoniBandoni.UalaCitiesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -584,7 +602,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZSU9399SWX;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = JoniBandoni.UalaCitiesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -603,6 +621,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZSU9399SWX;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = JoniBandoni.UalaCitiesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -621,6 +640,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZSU9399SWX;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = JoniBandoni.UalaCitiesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -14,5 +14,5 @@ struct HomeModel: Codable {
     static let test: HomeModel = .init(cities: [.empty,.init(id: 1234,
                                                         country: "AR",
                                                         name: "San Luis",
-                                                        coord: Coord(longitud: -66.33563, latitud: -33.29501))])
+                                                        coord: Coord(longitude: -66.33563, latitude: -33.29501))])
 }

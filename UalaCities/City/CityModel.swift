@@ -16,7 +16,7 @@ struct CityModel: Codable {
     static let empty: CityModel = .init(id: 707860,
                                         country: "UA",
                                         name: "Hurzuf",
-                                        coord: Coord(longitud: 34.283333, latitud: 44.549999))
+                                        coord: Coord(longitude: 34.283333, latitude: 44.549999))
     
     enum CodingKeys: String, CodingKey {
         case id = "_id"
@@ -27,11 +27,11 @@ struct CityModel: Codable {
 }
 
 struct Coord: Codable {
-    let longitud: Double
-    let latitud: Double
+    let longitude: Double
+    let latitude: Double
     
     enum CodingKeys: String, CodingKey {
-        case longitud = "lon"
-        case latitud = "lat"
+        case longitude = "lon"
+        case latitude = "lat"
     }
 }

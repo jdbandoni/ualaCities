@@ -10,7 +10,7 @@ import SwiftUI
 struct HomeView: View {
     @ObservedObject private var viewModel = HomeViewModel(data: .test)
     
-    @State private var cityTapped: String = ""
+    @State private var selectedCity: CityModel = .empty
     @State var isPortraitOrientation: Bool = true
     
     
@@ -18,7 +18,7 @@ struct HomeView: View {
         NavigationStack {
             List(viewModel.data.cities, id: \.id) { city in
                 NavigationLink {
-                    Text("\(city.coord.latitud),\(city.coord.longitud)")
+                    MapView(viewModel: MapViewModel(latitude: city.coord.latitude, longitude: city.coord.longitude))
                 } label: {
                     CityCellView(viewModel: CityCellViewModel(cityData: city))
                 }
@@ -30,15 +30,13 @@ struct HomeView: View {
         HStack (alignment: .top) {
             List(viewModel.data.cities, id: \.id) { city in
                 Button {
-                    cityTapped = city.name
+                    selectedCity = city
                 } label: {
                     CityCellView(viewModel: CityCellViewModel(cityData: city))
                 }
                 .buttonStyle(.plain)
             }
-            Text("City: \(cityTapped)")
-                .frame(minWidth: 0, maxWidth: .infinity)
-                .padding()
+            MapView(viewModel: MapViewModel(latitude: selectedCity.coord.latitude, longitude: selectedCity.coord.longitude))
         }
 
     }

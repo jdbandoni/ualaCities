@@ -17,7 +17,7 @@ final class CityCellViewModel: ObservableObject {
     }
     
     var formattedCoordinates: String {
-        "\(cityData.coord.longitud), \(cityData.coord.latitud)"
+        "\(cityData.coord.longitude), \(cityData.coord.latitude)"
     }
     
     init(cityData: CityModel = .empty) {
