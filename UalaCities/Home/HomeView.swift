@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct HomeView: View {
-    @ObservedObject private var viewModel = HomeViewModel(data: .test)
+    @ObservedObject private var viewModel = HomeViewModel()
     
     @State private var selectedCity: CityModel = .empty
     @State var isPortraitOrientation: Bool = true
@@ -50,7 +50,7 @@ struct HomeView: View {
             }
         }
         .task {
-            //update list
+            await viewModel.getCities()
         }
         .onRotate { newOrientation in
             isPortraitOrientation = (newOrientation.isPortrait || newOrientation == .unknown)

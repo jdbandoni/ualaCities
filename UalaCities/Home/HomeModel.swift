@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct HomeModel: Codable {
+struct HomeModel {
     let cities: [CityModel]
     
     static let empty: HomeModel = .init(cities: [])
